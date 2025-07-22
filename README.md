@@ -17,7 +17,7 @@
 
 ## 📥 Installation
 
-1. Download the latest [release](https://github.com/yourusername/MOTDRotator/releases)
+1. Download the latest [release](https://github.com/Farhan58901234/MOTDRotator/releases/tag/v1.0.0)
 2. Drop the `.jar` into your server's `plugins/` folder
 3. Start or reload your server
 4. Edit `plugins/MOTDRotator/config.yml` to add your custom MOTDs
