@@ -13,7 +13,7 @@ public class MOTDRotator extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
-        saveDefaultConfig(); // loads config.yml
+        saveDefaultConfig();
         motdManager = new MOTDManager(this);
         motdManager.startRotation();
 
