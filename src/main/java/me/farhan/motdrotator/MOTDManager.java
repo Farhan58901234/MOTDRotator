@@ -30,7 +30,7 @@ public class MOTDManager {
         random = plugin.getConfig().getBoolean("random", false);
         index = 0;
         updateCurrentMOTD();
-        startRotation(); // 🆕 restart timer with new interval
+        startRotation();
     }
 
     public void startRotation() {
@@ -38,14 +38,14 @@ public class MOTDManager {
             rotationTask.cancel();
         }
 
-        int interval = plugin.getConfig().getInt("interval", 60); // seconds
+        int interval = plugin.getConfig().getInt("interval", 60);
 
         rotationTask = new BukkitRunnable() {
             @Override
             public void run() {
                 updateCurrentMOTD();
             }
-        }.runTaskTimer(plugin, 0L, interval * 20L); // ticks
+        }.runTaskTimer(plugin, 0L, interval * 20L);
     }
 
     private void updateCurrentMOTD() {
