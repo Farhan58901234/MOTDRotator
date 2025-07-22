@@ -55,20 +55,6 @@ interval: 60    # seconds between each rotation
 
 ---
 
-## 📂 Project Structure
-
-```
-MOTDRotator/
-├── plugin.yml
-├── config.yml
-├── MOTDRotator.java       (Main class)
-├── MOTDManager.java       (Handles motd logic)
-└── Commands/
-    └── MOTDCommand.java   (/motd reload)
-```
-
----
-
 ## 🪪 License
 
 This project is licensed under the [MIT License](LICENSE)
