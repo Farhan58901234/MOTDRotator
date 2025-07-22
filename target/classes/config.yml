@@ -1,0 +1,15 @@
+# MOTDRotator - Config
+
+# MOTDs to rotate through
+motds:
+  - "&aWelcome to &bFarhan's Server!"
+  - "&eEnjoy your stay &6&o:)"
+  - "&dJoin our Discord! &7(discord.gg/example)"
+  - "&cWe have events every weekend!"
+
+# true = pick random MOTDs
+# false = rotate in order
+random: false
+
+# Interval (in seconds) between MOTD changes
+interval: 60

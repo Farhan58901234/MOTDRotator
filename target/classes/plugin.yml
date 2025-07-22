@@ -1,0 +1,16 @@
+name: MOTDRotator
+version: 1.0
+main: me.farhan.motdrotator.MOTDRotator
+api-version: 1.13
+
+commands:
+  motd:
+    description: Reload the MOTD config
+    usage: /motd reload
+    permission: motd.reload
+    aliases: [motdreload]
+
+permissions:
+  motd.reload:
+    description: Allows reloading the MOTD config
+    default: op
